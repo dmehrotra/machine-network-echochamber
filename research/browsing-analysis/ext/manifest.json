@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Browser Analysis",
+	"version": "0.1",
+	"background": {
+		"scripts": ["./scripts/background.js"]
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": ["./scripts/vendor/jquery.min.js","./scripts/utilities.js","./scripts/Site.js","./scripts/inject.js"]
+		}
+	]
+
+}
