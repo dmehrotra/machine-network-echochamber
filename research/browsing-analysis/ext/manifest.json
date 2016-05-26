@@ -3,7 +3,7 @@
 	"name": "Browser Analysis",
 	"version": "0.1",
 	"background": {
-		"scripts": ["./scripts/background.js"]
+		"scripts": ["./scripts/vendor/jquery.min.js","./scripts/background.js"]
 	},
 	"content_scripts": [
 		{
